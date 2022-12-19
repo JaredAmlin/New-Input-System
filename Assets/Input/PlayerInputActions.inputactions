@@ -1,0 +1,139 @@
+{
+    "name": "PlayerInputActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "bdf152f3-cc72-4e19-b09f-8e5c667406ed",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Value",
+                    "id": "84d86440-f80a-415c-9769-e4a6099295fb",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotate",
+                    "type": "Value",
+                    "id": "94fa123f-2696-4330-b32b-86a9b3035634",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "72c91ccc-c187-4926-98e0-5e038cd2d82a",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "066c6259-c462-44f4-abf2-6650f6af3298",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "97365c56-beff-4348-907d-c505fadc3dca",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "9f237370-e26f-4213-b07f-9cbc564a2d29",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "ed47cc02-d239-452b-8a66-52338f40fd4f",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "4e292967-d59f-4276-9d21-514e83b06475",
+                    "path": "<Joystick>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3db95c23-0039-4de5-bae2-cdc4ab270743",
+                    "path": "<Pointer>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Car",
+            "id": "224431f0-947e-41b6-96b3-f082d7bf1e82",
+            "actions": [],
+            "bindings": []
+        },
+        {
+            "name": "Flight",
+            "id": "f7104d76-cabc-4e11-8b55-296a7ee6e833",
+            "actions": [],
+            "bindings": []
+        },
+        {
+            "name": "Swimming",
+            "id": "a0e5f6ce-b7fd-42ef-8025-292fdbd5efce",
+            "actions": [],
+            "bindings": []
+        },
+        {
+            "name": "Climbing",
+            "id": "c6aeee36-ccce-48d7-a2b3-352656cb241e",
+            "actions": [],
+            "bindings": []
+        },
+        {
+            "name": "PauseMenu",
+            "id": "ca6ede5a-a030-4299-a58f-ec0b4fa40721",
+            "actions": [],
+            "bindings": []
+        }
+    ],
+    "controlSchemes": []
+}
